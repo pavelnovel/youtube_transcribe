@@ -1,0 +1,253 @@
+YouTube Transcript for Video: AI Agents, Clearly Explained
+Video ID: FwOTs4UxQS4
+Generated on: 2025-05-22 10:47:42
+==================================================
+
+[00:03] AI. AI. AI. AI. AI.
+[00:07] AI. You know, more agentic. Agentic
+[00:10] capabilities. An AI agent. Agents.
+[00:12] Agentic workflows. Agents. Agents.
+[00:15] Agent. Agent. Agent. Agent. Agentic.
+[00:19] All right. Most explanations of AI
+[00:20] agents is either too technical or too
+[00:23] basic. This video is meant for people
+[00:26] like myself. You have zero technical
+[00:28] background, but you use AI tools
+[00:30] regularly and you want to learn just
+[00:33] enough about AI agents to see how it
+[00:36] affects you. In this video, we'll follow
+[00:38] a simple one, two, three learning path
+[00:41] by building on concepts you already
+[00:43] understand like chatbt and then moving
+[00:46] on to AI workflows and then finally AI
+[00:49] agents. All the while using examples you
+[00:52] will actually encounter in real life.
+[00:55] And believe me when I tell you those
+[00:56] intimidating terms you see everywhere
+[00:58] like rag, rag, or react, they're a lot
+[01:02] simpler than you think. Let's get
+[01:04] started. Kicking things off at level
+[01:05] one, large language models. Popular AI
+[01:08] chatbots like CHBT, Google Gemini, and
+[01:10] Claude are applications built on top of
+[01:14] large language models, LLMs, and they're
+[01:17] fantastic at generating and editing
+[01:19] text. Here's a simple visualization.
+[01:21] You, the human, provides an input and
+[01:24] the LLM produces an output based on its
+[01:27] training data. For example, if I were to
+[01:29] ask Chachi BT to draft an email
+[01:31] requesting a coffee chat, my prompt is
+[01:33] the input and the resulting email that's
+[01:36] way more polite than I would ever be in
+[01:37] real life is the output. So far so good,
+[01:40] right? Simple stuff. But what if I asked
+[01:43] Chachi BT when my next coffee chat is?
+[01:47] Even without seeing the response, both
+[01:49] you and I know Chachi PT is gonna fail
+[01:52] because it doesn't know that
+[01:53] information. It doesn't have access to
+[01:56] my calendar. This highlights two key
+[01:58] traits of large language models. First,
+[02:00] despite being trained on vast amounts of
+[02:02] data, they have limited knowledge of
+[02:04] proprietary information like our
+[02:07] personal information or internal company
+[02:09] data. Second, LLMs are passive. They
+[02:12] wait for our prompt and then respond.
+[02:14] Right? Keep these two traits in mind
+[02:17] moving forward. Moving to level two, AI
+[02:19] workflows. Let's build on our example.
+[02:21] What if I, a human, told the LM, "Every
+[02:25] time I ask about a personal event,
+[02:26] perform a search query and fetch data
+[02:29] from my Google calendar before providing
+[02:31] a response." With this logic
+[02:33] implemented, the next time I ask, "When
+[02:35] is my coffee chat with Elon Husky?" I'll
+[02:38] get the correct answer because the LLM
+[02:40] will now first go into my Google
+[02:42] calendar to find that information. But
+[02:45] here's where it gets tricky. What if my
+[02:48] next follow-up question is, "What will
+[02:50] the weather be like that day?" The LM
+[02:53] will now fail at answering the query
+[02:55] because the path we told the LM to
+[02:57] follow is to always search my Google
+[03:00] calendar, which does not have
+[03:02] information about the weather. This is a
+[03:04] fundamental trait of AI workflows. They
+[03:07] can only follow predefined paths set by
+[03:10] humans. And if you want to get
+[03:12] technical, this path is also called the
+[03:15] control logic. Pushing my example
+[03:17] further, what if I added more steps into
+[03:20] the workflow by allowing the LM to
+[03:22] access the weather via an API and then
+[03:24] just for fun use a text to audio model
+[03:26] to speak the answer. The weather
+[03:28] forecast for seeing Elon Husky is sunny
+[03:31] with a chance of being a good boy.
+[03:33] Here's the thing. No matter how many
+[03:35] steps we add, this is still just an AI
+[03:39] workflow. Even if there were hundreds or
+[03:41] thousands of steps, if a human is the
+[03:44] decision maker, there is no AI agent
+[03:47] involvement. Pro tip: retrieval
+[03:49] augmented generation or rag is a fancy
+[03:52] term that's thrown around a lot. In
+[03:54] simple terms, rag is a process that
+[03:56] helps AI models look things up before
+[03:58] they answer, like accessing my calendar
+[04:00] or the weather service. Essentially, Rag
+[04:03] is just a type of AI workflow. By the
+[04:06] way, I have a free AI toolkit that cuts
+[04:07] through the noise and helps you master
+[04:09] essential AI tools and workflows. I'll
+[04:10] leave a link to that down below. Here's
+[04:12] a real world example. Following Helena
+[04:14] Louu's amazing tutorial, I created a
+[04:17] simple AI workflow using make.com. Here
+[04:19] you can see that first I'm using Google
+[04:21] Sheets to do something. Specifically,
+[04:23] I'm compiling links to news articles in
+[04:25] a Google sheet. And this is that Google
+[04:28] sheet. Second, I'm using Perplexity to
+[04:31] summarize those news articles. Then
+[04:34] using Claude and using a prompt that I
+[04:36] wrote, I'm asking Claude to draft a
+[04:38] LinkedIn and Instagram post. Finally, I
+[04:42] can schedule this to run automatically
+[04:44] every day at 8 a.m. As you can see, this
+[04:46] is an AI workflow because it follows a
+[04:49] predefined path set by me. Step one, you
+[04:52] do this. Step two, you do this. Step
+[04:55] three, you do this. And finally,
+[04:57] remember to run daily at 8 am. One last
+[04:59] thing, if I test this workflow and I
+[05:02] don't like the final output of the
+[05:05] LinkedIn post, for example, as you can
+[05:08] see right here, uh, it's not funny
+[05:10] enough and I'm naturally hilarious,
+[05:11] right? I'd have to manually go back and
+[05:16] rewrite the prompt for Claude. Okay? And
+[05:20] this trial and error iteration is
+[05:23] currently being done by me, a human. So
+[05:25] keep that in mind moving forward. All
+[05:27] right, level three, AI agents.
+[05:29] Continuing the make.com example, let's
+[05:31] break down what I've been doing so far
+[05:33] as the human decision maker. With the
+[05:36] goal of creating social media posts
+[05:37] based off of news articles, I need to do
+[05:39] two things. First, reason or think about
+[05:43] the best approach. I need to first
+[05:44] compile the news articles, then
+[05:46] summarize them, then write the final
+[05:48] posts. Second, take action using tools.
+[05:51] I need to find and link to those news
+[05:53] articles in Google Sheets. Use
+[05:55] Perplexity for real-time summarization
+[05:58] and then claw for copyrightiting. So,
+[06:00] and this is the most important sentence
+[06:01] in this entire video. The one massive
+[06:04] change that has to happen in order for
+[06:06] this AI workflow to become an AI agent
+[06:09] is for me, the human decision maker, to
+[06:13] be replaced by an LLM. In other words,
+[06:16] the AI agent must reason. What's the
+[06:19] most efficient way to compile these news
+[06:20] articles? Should I copy and paste each
+[06:22] article into a word document? No, it's
+[06:24] probably easier to compile links to
+[06:26] those articles and then use another tool
+[06:28] to fetch the data. Yes, that makes more
+[06:30] sense. The AI agent must act, aka do
+[06:34] things via tools. Should I use Microsoft
+[06:37] Word to compile links? No. Inserting
+[06:39] links directly into rows is way more
+[06:41] efficient. What about Excel? M. So the
+[06:44] user has already connected their Google
+[06:45] account with make.com. So Google Sheets
+[06:47] is a better option. Pro tip. Because of
+[06:49] this, the most common configuration for
+[06:51] AI agents is the react framework. All AI
+[06:55] agents must reason and act. So
+[06:59] react. Sounds simple once we break it
+[07:01] down, right? A third key trait of AI
+[07:03] agents is their ability to iterate.
+[07:06] Remember when I had to manually rewrite
+[07:08] the prompt to make the LinkedIn post
+[07:10] funnier? I, the human, probably need to
+[07:13] repeat this iterative process a few
+[07:15] times to get something I'm happy with,
+[07:17] right? An AI agent will be able to do
+[07:19] the same thing autonomously. In our
+[07:22] example, the AI agent would autonomously
+[07:25] add in another LM to critique its own
+[07:28] output. Okay, I've drafted V1 of a
+[07:30] LinkedIn post. How do I make sure it's
+[07:32] good? Oh, I know. I'll add another step
+[07:34] where an LM will critique the post based
+[07:36] on LinkedIn best practices. And let's
+[07:38] repeat this until the best practices
+[07:40] criteria are all met. And after a few
+[07:42] cycles of that, we have the final
+[07:45] output. That was a hypothetical example.
+[07:47] So let's move on to a real world AI
+[07:50] agent example. Andrew is a preeeminent
+[07:53] figure in AI and he created this demo
+[07:55] website that illustrates how an AI agent
+[07:58] works. I'll link the full video down
+[08:00] below, but when I search for a keyword
+[08:02] like skier, enter the AI vision agent in
+[08:07] the background is first reasoning what a
+[08:10] skier looks like. A person on skis going
+[08:12] really fast in snow, for example, right?
+[08:14] I'm not sure. And then it's acting by
+[08:18] looking at clips in video footage,
+[08:22] trying to identify what it thinks a
+[08:24] skier is, indexing that clip, and then
+[08:29] returning that clip to us. Although this
+[08:32] might not feel impressive, remember that
+[08:34] an AI agent did all that instead of a
+[08:36] human reviewing the footage beforehand,
+[08:39] manually identifying the skier, and
+[08:42] adding tags like skier, mountain, ski,
+[08:45] snow. The programming is obviously a lot
+[08:47] more technical and complicated than what
+[08:49] we see in the front end, but that's the
+[08:51] point of this demo, right? The average
+[08:53] user like myself wants a simple app that
+[08:56] just works without me having to
+[08:58] understand what's going on in the back
+[09:00] end. Speaking of examples, I'm also
+[09:02] building my very own basic AI agent
+[09:05] using Nan. So, let me know in the
+[09:07] comments what type of AI agent you'd
+[09:08] like me to make a tutorial on next. To
+[09:11] wrap up, here's a simplified
+[09:12] visualization of the three levels we
+[09:14] covered today. Level one, we provide an
+[09:17] input and the LM responds with an
+[09:19] output. Easy. Level two, for AI
+[09:22] workflows, we provide an input and tell
+[09:24] the LM to follow a predefined path that
+[09:27] may involve in retrieving information
+[09:29] from external tools. The key trait here
+[09:31] is that the human programs a path for LM
+[09:34] to follow. Level three, the AI agent
+[09:37] receives a goal and the LM performs
+[09:39] reasoning to determine how best to
+[09:41] achieve the goal, takes action using
+[09:44] tools to produce an interim result,
+[09:46] observes that interim result, and
+[09:48] decides whether iterations are required,
+[09:51] and produces a final output that
+[09:53] achieves the initial goal. The key trait
+[09:56] here is that the LLM is a decision maker
+[09:58] in the workflow. If you found this
+[10:00] helpful, you might want to learn how to
+[10:02] build a prompts database in Notion. See
+[10:04] you on the next video. In the
+[10:05] meantime, have a great one.

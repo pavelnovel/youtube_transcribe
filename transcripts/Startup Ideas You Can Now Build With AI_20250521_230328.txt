@@ -1,0 +1,1118 @@
+YouTube Transcript for Video: Startup Ideas You Can Now Build With AI
+Video ID: K4s6Cgicw_A
+Generated on: 2025-05-21 23:03:34
+==================================================
+
+[00:00] There's all this like tooling and
+[00:01] infrastructure still to build. There's
+[00:04] clearly still a bunch of startups yet to
+[00:06] be built in just the infrastructure
+[00:08] space around deploying AI and using
+[00:11] agents. If you're living at the edge of
+[00:13] the future and you're exploring the
+[00:15] latest technology, like there's so many
+[00:16] great startup ideas, you're very likely
+[00:18] just bump into one. You apply the right
+[00:21] prompts and the right data set and a
+[00:24] little bit of ingenuity, the right eval,
+[00:27] a little bit of taste and you can get
+[00:30] like just magical
+[00:33] [Music]
+[00:38] output. Welcome back to another episode
+[00:41] of the light cone. every other week.
+[00:43] We're certainly realizing there's a new
+[00:45] capability, a million token context
+[00:48] window in Gemini 2.5 Pro. It's just
+[00:51] really insane right now. And the thing
+[00:54] to take away from that though is that we
+[00:56] have an incredible number of new startup
+[00:59] ideas, some of which are actually very
+[01:01] old and they can only happen right now.
+[01:05] Harj, what are some of the things you're
+[01:06] seeing? Well, one thing I've been
+[01:07] thinking a lot about recently is what
+[01:10] are types of startup ideas that couldn't
+[01:13] work before AI or didn't work
+[01:15] particularly well that are now able to
+[01:16] work really really well. Uh and one idea
+[01:19] that is very personal to me um would be
+[01:21] recruiting startups since I ran a
+[01:23] recruiting startup triple bite for
+[01:25] almost 5 years. And I think um something
+[01:28] that I've clearly seen is that there was
+[01:30] a period of time when we started Triple
+[01:32] Bites around 2015 where recruiting
+[01:34] startups were kind of like a really
+[01:36] popular type of startup. Um and I think
+[01:38] a lot of the excitement around those
+[01:40] ideas back then was this idea of
+[01:42] applying marketplace models to
+[01:43] recruiting because there were
+[01:44] marketplaces for everything except how
+[01:46] to hire great people and specifically
+[01:48] great engineers. And we started Triple
+[01:51] Bite with the thesis of you don't just
+[01:53] want to let anyone on your marketplace.
+[01:54] You want to build a really curated
+[01:56] marketplace that evaluates engineers and
+[01:58] gives people lots of data about who the
+[02:00] best engineers are. And this was all
+[02:02] prelim. So we had to spend years
+[02:05] essentially building our own software to
+[02:07] do thousands of technical interviews to
+[02:10] squeeze out every little data point we
+[02:12] could from a technical interview so that
+[02:13] we'd effectively build up this label
+[02:15] data set that we could run machine
+[02:16] learning models on. But we didn't even
+[02:18] get to do that until like years three or
+[02:20] four. And initially it was uh actually a
+[02:22] three-sided marketplace and that you
+[02:24] needed to hire an interviewer in between
+[02:27] to get that human. We had companies
+[02:29] hiring engineers, we had the engineers
+[02:31] looking for jobs and then we had
+[02:33] engineers we contracted to interview the
+[02:36] engineers. Um so there's like lots of
+[02:39] things going on right now. Um and all of
+[02:43] the evaluation piece of it at least now
+[02:45] with AI is very very possible. I mean we
+[02:48] can specifically with the AI codegen
+[02:50] models you can do code evaluation um and
+[02:53] I think probably one of the hot AI
+[02:55] startups at the moment is this company
+[02:57] called Meror which is essentially
+[02:59] similar to the triple bite idea. It's a
+[03:01] marketplace for hiring software
+[03:03] engineers. Um but I think what AI has
+[03:05] unlocked for them is the evaluation
+[03:08] piece of it they could just do on day
+[03:10] one using LLMs. that they need to build
+[03:11] up this big label data set and they've
+[03:14] been able to expand into other types of
+[03:16] knowledge work um quite easily. For us
+[03:19] to have gone from like engineers to
+[03:21] analysts to all these other things would
+[03:23] have taken years because again we had to
+[03:25] rebuild the label data set. Um but with
+[03:27] LLMs you can just do that on you know
+[03:29] day one effectively. And so I think this
+[03:32] whole this whole class of recruiting
+[03:34] startups that are trying to evaluate
+[03:35] humans at being good at specific tasks
+[03:37] or not um is a really interesting space
+[03:40] that's much more exciting to find good
+[03:42] startup ideas in now than it was 5 years
+[03:44] ago. So that's a very powerful prompt
+[03:46] for anyone listening. Uh what are
+[03:48] marketplaces that are three-sided or
+[03:50] four-sided marketplaces that suddenly
+[03:52] become, you know, two or three-sided or
+[03:54] now there are two-sided marketplaces
+[03:56] like Dolingo that are, you know, a
+[03:58] little bit under fire because they're
+[04:00] sort of starting to say actually maybe
+[04:02] we're just going to use AI for uh the
+[04:05] person that you're going to talk to in
+[04:07] another language. That is totally a
+[04:09] coherent thing that you could go to
+[04:11] almost any marketplace in the world and
+[04:14] say what if what what will uh LLMs do in
+[04:18] that marketplace? I think the other
+[04:20] thing I really respect the Merkel
+[04:21] founders for is there's also just a
+[04:23] psychological element as a founder to
+[04:25] when you enter into a space where
+[04:26] there's um been lots of smart teams and
+[04:29] lots of capital that's flown into it.
+[04:30] This was definitely with recruiting
+[04:32] startups. I mean Triple Bite raised
+[04:33] something like $50 million. our main
+[04:35] competitor hired, raised over a hundred
+[04:37] million. I think in aggregate hundreds
+[04:39] of millions of dollars went into funding
+[04:41] recruiting marketplace companies. Um,
+[04:43] and overall as a category did not do
+[04:45] particularly well. And so I think going
+[04:48] in you face a lot of skepticism if
+[04:50] you're going to go out and pitch
+[04:51] investors for an idea. Even when you
+[04:52] have the like, well, LLM's change
+[04:54] everything, that pitch two years ago was
+[04:56] still not as compelling as it is today.
+[04:58] And so you have to be willing to sort of
+[05:00] push through a lot of sort of cynicism
+[05:02] and people who are burnt out, who have
+[05:04] lost lots of money on an idea to even
+[05:06] kind of keep going to test it out and
+[05:08] and make it work. That's something that
+[05:10] repeats actually all the time. I mean,
+[05:11] Instacart was that story. Exactly. Like
+[05:14] Web Van was sort of this rotting corpse
+[05:16] of a startup just hanging in that
+[05:18] doorway and most people looked at that
+[05:19] and said, "Oh man, I I don't want to
+[05:21] walk near that." Like there's there's
+[05:23] going to be more. But, you know,
+[05:25] simultaneously the iPhone and uh Android
+[05:28] phones were everywhere and you could
+[05:30] have a mobile marketplace for the first
+[05:32] time. And I guess that's why we're
+[05:34] pretty excited about this moment because
+[05:36] suddenly all you know the idea maze just
+[05:39] moved like all of the walls to the idea
+[05:41] maze have shifted around and uh the only
+[05:45] way to find out is you've got to
+[05:46] actually be in the maze. It is very
+[05:48] similar
+[05:49] to Instacart and Web Van if we go back
+[05:52] in history, right? because like the the
+[05:54] big technology unlocked for Instacart
+[05:56] was the fact that everyone had a phone
+[05:57] now. It enabled like the webband model
+[06:00] to actually work for the first time. And
+[06:02] like it's the same thing with LLMs and
+[06:03] recruiting companies now and and a whole
+[06:05] bunch of other ideas. I think it makes
+[06:07] uh focusing even on specific parts of
+[06:09] the marketplace to be great ideas to
+[06:12] start with. even with this uh recruiting
+[06:15] idea space. This is company called
+[06:17] Apriora that Nico, the other GP here at
+[06:20] YC funded back in winter 24 and their
+[06:25] whole premise is to build AI agents that
+[06:28] run the screening for technical
+[06:30] interviews where a lot of engineers
+[06:32] spend a lot of time just doing a bunch
+[06:34] of interviews and the pass rate is so
+[06:36] tiny. When I used to run engineering
+[06:38] teams at Niantic, all that pre-screening
+[06:40] was just so much work. The engineers
+[06:43] hate doing it. Yeah. And even that one
+[06:45] piece not exactly let's say marketplace
+[06:48] or what is the hardest part of it and if
+[06:50] you solve it right now it works out. So
+[06:52] API actually does a pretty good job.
+[06:54] It's being used by large companies and
+[06:56] it's been taking off. It's another
+[06:58] example where you can actually expand
+[06:59] the market because I think the there are
+[07:01] plenty of technical screening products
+[07:04] pre-appora but you could only use them
+[07:07] to do fairly simple evaluations to like
+[07:10] weed out people who weren't engineers at
+[07:12] all um effectively um or very very
+[07:14] junior but a prior product now with LLMs
+[07:17] you can do more sophisticated
+[07:18] evaluations to kind of get more nuanced
+[07:21] levels of screening and so suddenly now
+[07:23] companies will be like oh actually I
+[07:25] could actually give this to not just
+[07:26] like my international applicants or my
+[07:28] college students. I'll just give it to
+[07:30] like senior engineers who are applying
+[07:32] which just opens up the opportunity. So
+[07:34] you were talking a bit about education
+[07:36] as well Gary about Dualingo. I think
+[07:38] that's aspect of doing
+[07:40] hyperpersonalization is one of the holy
+[07:42] grails where has been difficult for
+[07:45] edtech companies to crack right because
+[07:47] every student as they go through their
+[07:48] learning journey everyone is very unique
+[07:51] and knows different things and it sounds
+[07:54] really cool to build like the awesome
+[07:56] personal AI Twitter that we did a that
+[07:58] harsh did an RFS for right yeah the
+[08:00] thing I'm excited about is for as long
+[08:02] as I can remember the internet's been
+[08:03] around like one of the like um dreams of
+[08:06] it was that everyone now have access to
+[08:08] like personalize learning and knowledge
+[08:09] and um we'd all just
+[08:12] um you know have these like great
+[08:14] intellectual tools to learn anything and
+[08:16] clearly the internet's made it easier to
+[08:18] learn but we've never had really truly
+[08:20] personalized learning or personalized
+[08:22] tutor in your pocket idea which is
+[08:24] possible now for the first time and I
+[08:26] think we're definitely seeing smart
+[08:28] teams applying to YC who are interested
+[08:30] in building that type of product. Couple
+[08:32] companies that we funded that are kind
+[08:35] of working out is uh this other company
+[08:37] that also Niko funded called Revision
+[08:39] Dojo that helps students do exam prep
+[08:43] and is sort of the version of uh
+[08:46] flashcards but not like the janky just
+[08:48] like boring going through content but
+[08:50] the version that actually students like
+[08:52] and gets tailored for their journey. And
+[08:56] that one has like a lot of DAUs and a
+[08:58] lot of power users which is super
+[09:00] interesting. And I think Jared you had
+[09:02] work with this other company called
+[09:04] Adexia as well. Yeah. Um Adexia does
+[09:07] tools for teachers to grade their
+[09:09] assignments which is another example of
+[09:11] work that like is like not people's main
+[09:13] job but is this other thing that they
+[09:15] have to do like engineers doing like
+[09:17] recruiting that they generally hate
+[09:19] doing. There's like a lot of studies
+[09:21] that show that like the biggest reason
+[09:23] that teachers churn out of the workforce
+[09:25] is that they hate grading assignments.
+[09:26] It's just like no fun at all. And so
+[09:28] Adexia like is an agent that's like very
+[09:31] good at helping teachers to grade
+[09:33] assignments. Yeah. One of the
+[09:34] interesting trends for some of this
+[09:35] stuff is that um it's private schools
+[09:38] who are actually much more nimble and
+[09:40] you know I'd be curious what policy
+[09:42] changes we need to make to actually
+[09:43] support this in public schools cuz the
+[09:46] public schools need it the most
+[09:47] actually. I guess question for you
+[09:49] actually Gary I'm curious about this
+[09:50] stuff is it's clearly possible to build
+[09:53] much better products with LLMs if we
+[09:56] take the the learning apps for example
+[09:58] they can go far beyond anything you
+[10:00] could do for personalized learning
+[10:01] prelims um but it doesn't necessarily
+[10:05] mean that you instantly get more
+[10:06] distribution especially if you're going
+[10:08] after the consumer market so do you how
+[10:11] do you think that plays out do better
+[10:13] products automatically get more
+[10:14] distribution or will these startups have
+[10:17] to work equally as hard to get
+[10:19] distribution to be big companies as
+[10:21] before. I guess one of the more awkward
+[10:22] things that's still true is that um you
+[10:25] know intelligence is much cheaper. It's
+[10:28] quite a bit cheaper than it was last
+[10:29] year, but it's still enough that you
+[10:33] have to charge for it probably. Um but
+[10:36] that's something I would probably track.
+[10:38] I mean it seems clear that um you know
+[10:41] distillation from bigger models to
+[10:43] smaller models is working. It seems
+[10:45] clear that the mega giant models are
+[10:48] teaching even the production model size
+[10:50] of today to be smarter. The cost of
+[10:53] intelligence is coming down quite
+[10:55] significantly. So, you know, I know that
+[10:57] we tease this sort of uh almost every
+[10:59] other episode, but like consumer AI, it
+[11:03] finally might be here soon. Uh and I
+[11:06] think the thing to track is well how
+[11:08] smart is it such that like any given
+[11:10] user incrementally only costs I don't
+[11:13] know pennies or like 10 or 15 cents like
+[11:16] then it becomes so cheap that you will
+[11:19] just have intelligence for free. Maybe
+[11:22] it'll be a return to the premium model
+[11:24] that we got used to during web 2.0. this
+[11:27] idea that you could basically give away
+[11:29] your product and then for um you know
+[11:32] five or 10% of those users there are
+[11:34] things that they so want that you know
+[11:37] you're going to sell them a5 or $10 or
+[11:39] $20 a month subscription that's
+[11:41] basically what open AI is doing right
+[11:43] like that is they complexity does it
+[11:45] open AI uh you know going back to
+[11:48] education study with 2DS they're doing
+[11:50] it and they're seeing a lot of success I
+[11:53] mean on average the kids who use that
+[11:55] actually get on grade level or, you
+[11:58] know, can kind of go up uh even a couple
+[12:00] grade levels. Those are real outcomes
+[12:02] for students. So, you know, right now
+[12:05] you still got to pay for it, but uh
+[12:07] maybe not for a while. And that's
+[12:09] actually a really big unlock. You know,
+[12:10] that that's the moment where you could
+[12:12] have 100 million or a billion people
+[12:15] using it. OpenAI uh might be furthest
+[12:18] ahead with it. But the hope is that, you
+[12:20] know, really thousands of apps like this
+[12:24] start in start coming out. um across all
+[12:26] the different things you'll need. And
+[12:28] that's something that I know we keep
+[12:31] saying it like it's gonna happen. I mean
+[12:33] it's kind of happening already for
+[12:35] edtech speak. It's this company that got
+[12:37] started couple of years ago before LLMs
+[12:41] were a thing at all. It was team of
+[12:42] researchers that really believed that
+[12:44] you could personal personalize language
+[12:47] learning which might have been a bit
+[12:48] contrarian back then because Duolingo
+[12:50] seemed to be the game in town that was
+[12:51] winning and they really focus on really
+[12:55] personalizing that whole language
+[12:57] learning and they got they started
+[13:00] taking off in Korea for a lot of uh
+[13:02] learners that were trying to learn
+[13:04] English and when GPT3 and 3.5 they were
+[13:08] early adopters of it started coming out
+[13:10] they saw that wow this is going to be
+[13:11] the moment they double down and they've
+[13:14] been on on this trajectory now with lots
+[13:18] of MAUs EAS that's really working out. I
+[13:21] think one thing going back to the
+[13:23] consumer thing that we haven't talked as
+[13:24] much about um we've seen a lot with the
+[13:27] startups that are selling to enterprises
+[13:29] or companies about how the budgets
+[13:31] become so much bigger when companies are
+[13:32] willing when companies stop thinking
+[13:34] about you as software as a service but
+[13:36] they start thinking about you as
+[13:37] replacing their customer support team or
+[13:39] their analytics team or something like
+[13:41] that. they'll just pay way way way more.
+[13:43] So the same thing will apply in
+[13:44] consumer, right? Like if you think about
+[13:46] a personalized learning app, uh often
+[13:49] edtech companies struggle with who's
+[13:51] actually the buyer and who's going to
+[13:52] pay. And if you go for like younger
+[13:55] children, for example, it's like you've
+[13:56] got to get the parents to pay. But the
+[13:57] parents aren't going to pay that much
+[13:59] for an app that their kids like don't
+[14:01] retain or complete like some sort of
+[14:03] online course that they're disengaged
+[14:04] with. But we know that parents will
+[14:06] definitely pay for like human tutors and
+[14:07] like you know that's like actually
+[14:10] probably quite a big market. And so if
+[14:12] your app goes from being like a
+[14:14] self-study course that doesn't get any
+[14:16] completion to actually being on par with
+[14:18] the best human math tutor for your
+[14:20] 12-year-old, parents will pay a lot more
+[14:22] for that. And so those like it's
+[14:24] possible that like the product now just
+[14:27] become has a business model that you
+[14:28] didn't have before. And that alone means
+[14:30] you don't necessarily need millions of
+[14:32] parents using it, but even a hundred
+[14:33] thousand parents using it paying you a
+[14:35] significant amount means you now have
+[14:37] like a much bigger business than was
+[14:39] possible before. Yeah, I feel like we
+[14:40] have to talk about modes a little bit. I
+[14:42] mean, it's pretty clear a company like
+[14:43] Speak or almost any of these other
+[14:45] companies that could have durable
+[14:47] revenue streams like what you need is
+[14:50] brand, you need switching costs.
+[14:52] Sometimes it's integration with other uh
+[14:54] technologies that are sort of
+[14:56] surrounding that experience. like in uh
+[14:58] a school it would probably be being
+[15:00] connected to Clevver for instance like
+[15:02] login is authentication is pretty
+[15:04] obvious. So yeah I feel like Sam Alman
+[15:06] has talked about this a bunch you know
+[15:08] it's uh it's not enough to drop AI in it
+[15:10] you know you still have to actually
+[15:12] build a business I don't think open AI
+[15:14] is necessarily uh you know out to get
+[15:17] all the startups like I actually think
+[15:19] that on the API side they very much hope
+[15:21] that a lot of them do really really well
+[15:24] and certainly we want that too. They did
+[15:26] just hire like the Instacart CEO as
+[15:29] their CEO application. So, it does kind
+[15:31] of seem like they are definitely paying
+[15:32] more attention to the application layer.
+[15:35] That's right. Yeah. I mean, you'd be
+[15:36] crazy not to, right? Like, by all
+[15:38] accounts, Open AI is highly likely to be
+[15:41] a trillion dollar company at some point
+[15:43] and uh you know, as powerful as a Google
+[15:46] or an Apple or um any of them. The
+[15:50] interesting thing right now is like
+[15:51] they're still on the comeup. And then if
+[15:54] anything, um, the big tech platforms are
+[15:56] actually still holding back a lot of the
+[15:59] AI labs. And the most profound example
+[16:01] of this is, uh, why is Siri still so
+[16:04] dumb? It makes no sense, right? Totally.
+[16:07] Uh, I mean, I think that points to
+[16:09] something that we actually really need
+[16:11] in uh, tech today. We actually really
+[16:13] need platform neutrality. So in the same
+[16:16] way, you know, 20, 30 years ago, there
+[16:19] were all these fights about net
+[16:20] neutrality, this idea that there should
+[16:22] be one internet, that ISPs or big
+[16:25] companies should not self-preference uh
+[16:28] their own content or the content of
+[16:30] their partners. Uh you know, that's what
+[16:32] sort of unleashed this giant wave of
+[16:35] really a free market on the internet.
+[16:37] The other profound example of that is
+[16:39] actually Windows. if uh you know if you
+[16:41] open up Windows you actually have to
+[16:44] choose your browser and then you also
+[16:46] need to be able to choose which search
+[16:49] engine you use and these are things that
+[16:52] you know the government did get involved
+[16:53] in and said hey you you know you cannot
+[16:56] self-preference in this way and you know
+[16:59] if you remember the moment where where
+[17:01] internet explorer had a majority of web
+[17:03] users like that could have been a moment
+[17:06] where Google couldn't have become what
+[17:08] it became so We actually have a history
+[17:11] of the government coming in and saying
+[17:14] this should be a free market and for
+[17:16] that free market to create uh choice and
+[17:18] then therefore prosperity and abundance.
+[17:21] And so I would argue like, you know, why
+[17:24] doesn't this exist for voice on uh
+[17:27] phones? Like you should be able to pick
+[17:29] not you shouldn't be forced to use
+[17:30] Google Assistant. You shouldn't be
+[17:32] forced to use Siri. You should be
+[17:34] allowed to pick and you know it's been
+[17:36] many many years of having to use a very
+[17:39] very dumb Siri. On the moat topic,
+[17:42] something I just find fascinating is I
+[17:43] saw some numbers recently about how um
+[17:47] Gemini Pro models like just their usage
+[17:50] particularly from consumers is just a
+[17:52] insificant fraction of chat GPTs and I
+[17:55] think at YC we've been doing our own
+[17:57] internal work building agents and um
+[17:59] actually being at the cutting edge of a
+[18:00] lot of the AI tools and we found that
+[18:02] Gemini 2.5 Pro is like as good and in
+[18:05] some cases a better model than 03 for
+[18:07] various tasks that hasn't trickled down
+[18:09] into public awareness yet, right? Which
+[18:12] is fascinating since Google already has
+[18:14] all the users with their with their
+[18:16] phones. And I don't think anyone would
+[18:17] say OpenAI is not a startup anymore, but
+[18:20] relative to Google, it essentially is.
+[18:22] So there is clearly some sort of
+[18:23] intangible mode around being the first
+[18:26] in a space and sort of staking your
+[18:28] claim as like the best product for a
+[18:30] specific use case. And I feel like and
+[18:33] actually making it good. Yep. Yep. Yep.
+[18:34] Yep. But at some point, maybe it doesn't
+[18:36] even necessarily need to be like
+[18:38] objectively the best. It just needs to
+[18:40] be good enough. I mean, that's the bet
+[18:42] that I think a lot of the big tech
+[18:44] companies are trying and failing at. I
+[18:46] mean, there's Microsoft has a co-pilot
+[18:48] built into Windows now that is still
+[18:51] quite inferior to anything OpenAI puts
+[18:54] out. Gemini itself is very very good and
+[18:57] I use it quite a lot. Um it's probably I
+[19:01] don't know 40% of my agent you know sort
+[19:03] of if I need to especially summarize
+[19:05] YouTube videos it's very very good at
+[19:07] that for multimodal is really good.
+[19:09] Yeah, a lot of the Gemini integrations
+[19:11] into Gmail or, you know, Google Drive
+[19:15] are not they're totally useless. It's
+[19:17] like, is there someone at the wheel over
+[19:19] there? I don't get it. You know, I mean,
+[19:21] I think that's even confusing for us is
+[19:23] even using it as a developer. There's
+[19:26] actually two different products. There's
+[19:28] Gemini where you can consume Gemini and
+[19:30] Vert.ex Gemini. And I think they're like
+[19:32] different orgs. I think it's suffering a
+[19:35] little bit from being too big of a
+[19:36] company and essentially shipping the
+[19:38] orc. There's like these two APIs you can
+[19:40] consume to use Gemini and we're like why
+[19:44] two? One is from deep mind and the other
+[19:46] one is from GCP. I think that comes from
+[19:48] the culture of Google though. I mean
+[19:50] there's definitely this sense that uh if
+[19:52] two orgs are competing and fighting
+[19:54] normally in a normal org you go up and
+[19:57] in a functioning uh startup for instance
+[19:59] you know it goes up to some level and
+[20:01] then ultimately the CEO or founders and
+[20:04] then they just say okay well I see the
+[20:06] points over here I see the points over
+[20:07] there we're going this way but you know
+[20:10] having lots of friends from Google it
+[20:12] doesn't seem like that's the culture
+[20:13] there like there's a layer of VP and
+[20:16] sort of management that is actually like
+[20:18] you guys just fight it out and so then
+[20:20] you ship the org. I think the crazy
+[20:22] thing about Google, they probably should
+[20:24] have won a lot of the experience of the
+[20:28] best model. There's almost like I don't
+[20:32] know where all this Game of Thrones
+[20:33] analogy could be used. They might be a
+[20:35] little bit like Dennis Targaryen because
+[20:38] they secretly have dragons. The dragons
+[20:40] are the TPUs. Mhm. And this is one of
+[20:43] the reasons why I think they could be
+[20:45] the one company that could get a lot of
+[20:47] the cost of intelligence to be very low
+[20:49] and they also have the engineering to to
+[20:52] be able to do a cost effective large
+[20:55] context windows. I think one of the
+[20:56] reason why the other labs haven't quite
+[21:00] shipped as big of a context window is
+[21:02] cost actually. Is it actually the
+[21:04] hardware? like it's just like you can't
+[21:05] actually do it without
+[21:08] you can do it but I think it's just very
+[21:10] expensive and not cost effective but I
+[21:12] think they done it so well and they got
+[21:14] TPUs which I think is smart for Sam if
+[21:18] you saw his little announcement he's
+[21:19] still the uh CEO of compute quote
+[21:22] unquote so I'm sure they're probably
+[21:23] working on something around there too
+[21:26] classic innovators dilemma it's like if
+[21:28] Google replaced google.com with Gemini
+[21:32] pro it would instantly presumably be
+[21:34] like the number one chatbot LLM service
+[21:38] in the world, but that it would give up
+[21:40] 80% of its revenue. Yeah, you would
+[21:42] probably need a pretty strong founder
+[21:45] CEO to do that. It's the kind of thing I
+[21:47] can imagine Zuck doing, right? Like
+[21:49] being will like Yeah, you just you can't
+[21:51] imagine a hired CEO who's going to do
+[21:52] that. He's done that. He renamed the
+[21:54] company to Meta. Yeah. Yeah. Meta has
+[21:56] its own issues, too. Like I'm so
+[21:59] surprised, you know? I mean, you have um
+[22:01] Meta's AI in WhatsApp. It's in the blue
+[22:04] app. It's everywhere. But I mean, who
+[22:06] actually uses it? I don't think any of
+[22:08] us. I started using the um meta AI in
+[22:11] WhatsApp. It's very
+[22:13] classic. It makes me feel like Zuck is
+[22:16] clearly still in charge of product
+[22:17] because I don't think anyone else would
+[22:18] launch it that way. You just you now you
+[22:21] have an AI system that's just in all of
+[22:22] your chats and you sort of it comes with
+[22:25] a you can just at it and it will just
+[22:27] start talking in a group chat and it
+[22:28] feels quite invasive actually. Is it
+[22:30] like well it's not that smart and then
+[22:32] it can't do anything. Yeah. And then you
+[22:34] have I mean most people are surprised
+[22:36] that it's in there. It's just it's just
+[22:38] like it feels like having someone from
+[22:40] Facebook just in your
+[22:42] chats and it's just like it's I know it
+[22:44] remind me of like the original newsfeed
+[22:47] launch or something. It's just like the
+[22:48] classic meta style of like this is sort
+[22:52] of I don't know objectively optimal like
+[22:54] I'm sure people will love it. You need
+[22:55] to add a little bit of design taste into
+[22:57] these things. I mean, it blows my mind
+[22:59] that I can go to the blue app, which I
+[23:01] still kind, you know, it's probably
+[23:03] people watching this are like, "What the
+[23:04] heck's the blue app?" This is like
+[23:06] facebook.com, which maybe nobody uses
+[23:08] anymore. It's very millennial. Yeah.
+[23:10] But, you know, you have this meta AI and
+[23:12] you ask it, "Hey, who are my friends?
+[23:14] I'm going to Barcelona next week. Who
+[23:15] are my friends in Barcelona?" And it's
+[23:17] like, "Sorry, as an AI, I actually don't
+[23:19] have access to them." It's like, what?
+[23:21] You know, what is the point of this?
+[23:23] Okay, our partner Pete Cuman wrote this
+[23:26] really great essay where he talked about
+[23:28] um the Gemini integration with Gmail and
+[23:32] he really like broke down in great
+[23:34] detail why Google built this integration
+[23:37] all wrong and how they should have built
+[23:39] it. Um it's almost like he was a PM at
+[23:42] Google. Oh wait, he he was a PM at
+[23:44] Google. Um it was very profound um in
+[23:47] that one of the things he pointed out
+[23:49] was that you know you have a system
+[23:51] prompt and a user prompt and if you are
+[23:56] actually going to empower your users you
+[23:59] actually allow your user to change the
+[24:02] system prompt which is the part that
+[24:05] normally is like above you know to use
+[24:07] the veniteshow's idea of like sort of
+[24:10] the the API line it's sort of like the
+[24:12] system prompt is
+[24:14] what is exerted upon it's like sort of
+[24:16] imposed upon the user and so you know
+[24:20] Gemini follows this very specific thing
+[24:23] I think the example is uh actually an an
+[24:26] email saying that uh Pete's going to be
+[24:28] sick to me he's like uh sorry I'm not
+[24:32] going to be able to come in and he asks
+[24:34] the agent to write this letter and it's
+[24:37] very formal and of course it is because
+[24:40] there's no way to change the tone it's
+[24:43] actually one the best blog post and that
+[24:44] I think he had to vibe code the blog
+[24:46] post itself cuz you can actually try the
+[24:49] prompts yourself on that web page. Yeah,
+[24:51] it's super cool. It's like a it's in
+[24:53] this like interactive Yeah. template
+[24:56] thing language which made me think it's
+[24:57] time to start an AI first vibe coding uh
+[25:01] blog platform. Oh, like a AI like a like
+[25:03] a AIosterous. Yeah, basically
+[25:06] isost Yeah. With all my extra time,
+[25:08] that's what I'm going to work on. But
+[25:10] that's a free idea for anyone's
+[25:11] watching.
+[25:13] we'll fund it. There's another class of
+[25:15] startup ideas that I'm I'm particularly
+[25:18] excited about that I think are like
+[25:20] perhaps the time is now, which is um do
+[25:24] you guys remember the tech- enabled
+[25:25] services wave? Yep. Yeah. So, for folks
+[25:28] who who who
+[25:29] uh didn't follow this, in the in the
+[25:32] 2010s, there was this huge boom in
+[25:34] companies called tech- enabled services.
+[25:36] Um Triple Bite was one actually. Yeah,
+[25:38] that was like tech enabled services for
+[25:40] recruiting, right? Um we also had atrium
+[25:43] which was technical services for law
+[25:45] firms. It started with Balag's blog post
+[25:48] about full stack startups if you
+[25:49] remember like the concept was just that
+[25:52] um software eats the world means
+[25:54] software just kind of goes into the real
+[25:56] world and so this is not the success
+[25:59] example but an example of it was hey
+[26:01] like instead of just having an app to
+[26:02] deliver food you should also like have a
+[26:06] kitchen that cooks the food and software
+[26:08] to optimize the kitchen and you just do
+[26:10] everything. Um, and that like the full
+[26:12] stack startups in theory would be more
+[26:14] valuable than just the software startups
+[26:16] because they would do everything. Yeah.
+[26:17] Because instead of just selling like
+[26:18] software to like the restaurants and
+[26:21] capturing like 10%, you could just own
+[26:22] the restaurant, you could capture 100%.
+[26:24] This is exactly what TripleA was cuz we
+[26:26] were like we're going to be a recruiting
+[26:27] agency effectively. We're not selling
+[26:29] software to recruiting agency. We're
+[26:30] actually just doing the whole thing.
+[26:32] like we're gonna we also had recruiters
+[26:34] on staff that were just there to help
+[26:35] people negotiate salaries and match them
+[26:37] to the right companies and um yeah it
+[26:39] was very much in that wave of do
+[26:41] everything but the that wave of startups
+[26:43] generally forgot that you need gross
+[26:45] margins. Yeah. What happened like I mean
+[26:47] like fast forward basically the short
+[26:49] version is like it didn't really work
+[26:50] and the full stack startups actually
+[26:52] were not more valuable than the SAS
+[26:53] companies and the SAS companies sort of
+[26:55] like won that round of the like
+[26:57] Darwinian competition of different
+[26:58] business models. I think fundamentally
+[27:00] it's just what Gary says. It's just they
+[27:03] were actually not great gross margin
+[27:06] businesses, but it was actually I think
+[27:08] what it it was just hard to scale them.
+[27:10] At least in trip wise situation, we
+[27:12] actually got to like $20 million annual
+[27:15] run rate, $24 million annun rate within
+[27:17] a few years. So like if you compared us
+[27:19] to like a regular recruiting agency, it
+[27:21] was like super fast. But um if you
+[27:24] compare it to like the top software
+[27:25] startups, not that like um impressive
+[27:29] and it became harder and harder to scale
+[27:30] because you had more and more people.
+[27:32] Yeah. Yeah. Basically the margins didn't
+[27:34] work out particularly well and so then
+[27:36] you need to keep raising more capital
+[27:37] and so if you were like a fearsomely
+[27:39] good fundraiser, you could sort of do it
+[27:42] and kind of push yourself. But even in
+[27:43] those cases, I think most of those
+[27:45] businesses at some point it just caught
+[27:46] up with them. like at some point like
+[27:48] actually we have to figure out a way to
+[27:50] scale the business and have good margins
+[27:51] and make this like profitable and not
+[27:53] just rely on the next fundraising round
+[27:55] is what I felt hurt a lot of the you
+[27:58] could argue ZS was one of those for um
+[28:00] insurance and a bunch of different HR
+[28:03] related things. It was actually um they
+[28:06] basically relied too much on hiring more
+[28:09] salespeople and more customer success
+[28:11] people instead of actually building
+[28:14] software that then would create gross
+[28:15] margin. And so Parker Conrad said,
+[28:18] "Well, I'm not going to do that again.
+[28:20] And I'm also going to force all the
+[28:21] engineers to do the customer support so
+[28:24] that they go on to build software that
+[28:26] doesn't require so much support and thus
+[28:28] there is gross margin." And that, you
+[28:30] know, was a whole lesson that, uh, I
+[28:32] feel like the whole tech community
+[28:34] learned collectively through the 2010s.
+[28:36] If we learned one thing, it's gross
+[28:38] margin matters a lot. Like, you can you
+[28:40] cannot and should not sell $20 bills for
+[28:43] $10 cuz you're going to lose everything.
+[28:46] I think a sort of non-financial reason
+[28:48] why the gross margins matter is um, low
+[28:52] gross margin businesses usually mean you
+[28:53] have some ops component and then you
+[28:55] have to like run the ops component. So
+[28:57] if I think of my like tripey experience,
+[28:59] there was like a lot of brain power
+[29:00] spent on like how do we like manage this
+[29:02] team of like contracted engineers, this
+[29:04] team of like humans looking after the
+[29:06] like essentially the human recruiting
+[29:07] team like lots of pieces of the business
+[29:10] where actually the existential issue we
+[29:11] had is how do we get to like millions of
+[29:13] engineers across the world like all like
+[29:16] on like on our platform and all locked
+[29:18] in i.e. like how do you just get lots of
+[29:19] distribution? And I think something
+[29:22] that's nice about a high gross margin
+[29:23] business is another way of saying it's
+[29:25] just a simpler product or a simpler
+[29:26] company to run and you can actually just
+[29:28] spend all of your time focused in on how
+[29:30] do I make the product better and how do
+[29:32] I get more users and get more
+[29:33] distribution so that you can keep that
+[29:35] like exponential growth for a decade.
+[29:37] And I think a lot of full stack
+[29:39] startups partly plateaued out because
+[29:42] it's just a they're complex businesses
+[29:43] to run. Maybe u a very famous example of
+[29:47] that was like we worked right. Yeah.
+[29:49] Yeah. Which is very took it to the
+[29:51] limit. The margins were not there. It
+[29:53] was not uh didn't have the tech margins.
+[29:56] Right. It had community adjusted aida
+[29:59] which was
+[30:01] very creative. What I've been excited
+[30:04] about recently is like I think you can
+[30:05] make a bullc case that like now is the
+[30:08] time to build these full stack companies
+[30:10] because like you know like you were
+[30:12] saying like the triple by 2.0's knows
+[30:14] won't have to hire this huge ops team
+[30:15] and have bad gross margins. They'll just
+[30:17] have agents that do all the work. And so
+[30:19] like now actually like full stack
+[30:21] companies can look like software
+[30:22] companies under the hood for the first
+[30:23] time. And you gave a great example. So
+[30:25] Atrium started by Justin Khan, full
+[30:27] stack law firm didn't work out for all I
+[30:30] think a lot of these same reasons. Um
+[30:32] but now I heard him say that before.
+[30:33] It's like look, we went in trying to use
+[30:36] AI to automate large parts of it and it
+[30:39] wasn't the AI was not good enough at
+[30:41] that moment, but it's good enough now.
+[30:43] If you look at within YC, we have
+[30:45] Legora, which is like this like one of
+[30:47] the fastest growing companies we've ever
+[30:48] funded. Um, and it's not building a law
+[30:51] firm, but they're essentially um, you
+[30:53] know, building AI tools for lawyers, but
+[30:55] you can see where that's going to extend
+[30:57] out to, right? Like eventually their
+[30:59] agents are just going to do all of the
+[31:00] legal work and they'll they'll be the
+[31:01] biggest law firm on the planet. Um, and
+[31:04] yeah, I think that's a kind of full
+[31:05] stack startup that just wasn't possible
+[31:07] pre-LM. I think this started right when
+[31:09] Uber and Lyft and Instacart and all of
+[31:12] these companies were happening. And the
+[31:14] thing is now I mean you can actually
+[31:17] have LLMs do a lot of the knowledge work
+[31:20] and then I mean increasingly it it could
+[31:23] actually have memory. I mean this is one
+[31:25] of the RFS's. It's literally you can
+[31:27] have virtual assistants um but they
+[31:30] become less and less virtual if they can
+[31:32] also uh hire real people to do things
+[31:34] for you. Virtual assistant marketplaces
+[31:37] was definitely like a whole category of
+[31:39] companies for like 15 years in including
+[31:42] exec where you build like a marketplace
+[31:43] of like people in the Philippines and
+[31:45] like other other countries and then you
+[31:46] like exposed to sort of like Airbnb UI.
+[31:48] I don't think any of them ever like
+[31:50] really got really became like amazing
+[31:53] businesses though. Going back to Pete's
+[31:55] post, I think the other thing that's
+[31:57] interesting about the um the points he
+[31:59] made around sort of the system prompt
+[32:00] and user prompt and maybe we want to
+[32:02] expose the system prompt to users a
+[32:04] little bit more. Um it's an example of
+[32:07] just how we're still so early in just
+[32:09] using AIS and building agents. There's
+[32:10] all this like tooling and infrastructure
+[32:13] like still to build. You have to do
+[32:16] evals, you have to run the models, like
+[32:18] a whole bunch of stuff to build still.
+[32:19] And so there's clearly still a bunch of
+[32:22] startups yet to be built in just the
+[32:25] infrastructure space around you know
+[32:28] deploying AI and using agents and Jared
+[32:31] you know it's interesting something that
+[32:32] struck me about when I first came back
+[32:34] to YC in 2020 is I remember a class of
+[32:37] idea we weren't interested in funding
+[32:39] was anything in the world of like ML
+[32:42] machine learning operations or ML tools
+[32:45] and I remember reading some applications
+[32:46] and people like ah like another ML ops
+[32:49] like team like these sort of never go
+[32:51] anywhere. Um clearly if you were working
+[32:53] on ML ops in 2020 and you just stuck it
+[32:56] out for a few years, you're in the right
+[33:00] spot. Any context you can share from
+[33:02] that? I remember I got so frustrated
+[33:05] after years and years of funding these
+[33:07] ML ops companies with really smart,
+[33:10] really like optimistic founders that
+[33:12] just like didn't go anywhere that I ran
+[33:14] a query to count and I remember finding
+[33:18] that I think this was around 2019. We
+[33:21] had more applications in 2019 for
+[33:24] companies building ML tooling than we
+[33:27] had applications for like the customers
+[33:29] of those companies like like anyone
+[33:31] who's like applying ML to like any sort
+[33:33] of product at all. And like I think that
+[33:36] was the core problem is that like these
+[33:37] people were building ML tooling but
+[33:39] there was no one to sell it to cuz like
+[33:41] the ML didn't actually work. So there
+[33:42] just wasn't anything useful that you
+[33:44] could build with with with with all this
+[33:45] ML tooling. People didn't want it yet. I
+[33:47] mean directionally it was absolutely
+[33:48] correct. Like from a sci-fi level on a
+[33:51] 10-year basis it was beyond correct.
+[33:54] Yes. It was just wrong for that moment.
+[33:56] Yeah. You actually have a team that
+[33:58] stuck it out. I mean part of the lesson
+[34:00] is sometimes it will take a bit of time
+[34:02] for technology to catch up and this
+[34:04] company called Replicate that you work
+[34:06] with stuck it out. It was from that era.
+[34:08] Yeah. Replicate was from winter 20 and
+[34:11] they started the company right before
+[34:13] COVID and during the pandemic it was
+[34:15] going so poorly that they actually
+[34:17] stopped working on it for several months
+[34:19] and just like didn't work on it cuz like
+[34:21] it wasn't clear that the thing like had
+[34:22] a future at all and then they picked it
+[34:25] back up and just started like working on
+[34:27] it quietly. But it basically was just
+[34:29] like they were just building this thing
+[34:30] in obscurity for two years until the
+[34:32] image diffusion models came out and then
+[34:34] it just like exploded like overnight.
+[34:36] OAM is another good example. Yeah, about
+[34:40] so the Olama folks were also from that
+[34:42] pandemic era and similar story to uh to
+[34:47] replicate. They were kind of trying to
+[34:48] do different things around here too and
+[34:51] they were trying to work it out to make
+[34:53] open source models deploy a lot better
+[34:54] and they were also quietly working on it
+[34:57] for a while. things weren't really
+[34:59] taking off and then suddenly I think the
+[35:02] moment for them was when Lama got
+[35:05] released that was like the easiest way
+[35:07] for any developer to run open source
+[35:09] models locally and it took off because
+[35:11] suddenly the interest to run models
+[35:14] locally just took off when things
+[35:16] started to work but not before that
+[35:18] because there were all these other open
+[35:19] source models um that were in hugging
+[35:22] face and especially the ones from like
+[35:24] BERT models those were like the more
+[35:27] used deep learning models. They were
+[35:28] like just okay, but not many people were
+[35:31] using them because they weren't quite
+[35:33] working. What's the moral of the story?
+[35:35] I mean, some of it is like uh be on top
+[35:38] of the oil well before the oil starts
+[35:41] shooting out of the ground, but is that
+[35:43] actionable? It's kind of the classic
+[35:45] startup advice of follow your own
+[35:46] curiosity. Like most of these teams or
+[35:49] almost all these teams were working on
+[35:50] it because they were just interested in
+[35:51] ML. They wanted to deploy models. They
+[35:53] were frustrated with the tooling.
+[35:55] probably weren't necessarily
+[35:56] commercially minded and trying to pick
+[35:57] the best startup idea they could
+[35:58] possibly work on. But I know sometimes
+[36:00] you get lucky sometimes. There's so many
+[36:02] ways to do it. I mean, we were just
+[36:04] sitting with Verun from Windsurf and he
+[36:06] pivoted out of MLOps into codegen.
+[36:09] Deepgram is another one. Um, Deepgram
+[36:12] was one of the first companies I worked
+[36:14] with back in 2016 and it was these two
+[36:17] physics PhDs. They had done string
+[36:19] theory. So they weren't even computer
+[36:20] scientists and they got interested in
+[36:22] deep learning because they saw like
+[36:24] parallels with string theory and they
+[36:26] were it was it was exactly what you said
+[36:28] Harge they they found the mathematics to
+[36:30] be elegant and interesting like that's
+[36:31] really the origin and so they started
+[36:33] working on deep learning before anybody
+[36:36] really and they built this speech to
+[36:39] text stuff and it just like didn't
+[36:43] really work that well for like a long
+[36:45] time and so like nobody really like paid
+[36:48] much attention to to this company wasn't
+[36:50] famous. The founders to their credit
+[36:52] just like kept working on it and then
+[36:54] when the voice agents took off, they all
+[36:56] needed speech to text and text to speech
+[36:58] and um most of them are actually using
+[37:00] deepgram under the hood and so they've
+[37:02] just like exploded in the last couple of
+[37:04] years. I mean I guess essentially the
+[37:05] whole AI revolution is built on
+[37:08] Ilioskava following his own curiosity
+[37:10] for like a long period of time. We need
+[37:12] more of that. Actually this is maybe a
+[37:15] meta point on this whole conversation.
+[37:17] So, um, we were at colleges, uh, Tyenne
+[37:21] and I went on this college tour, um, and
+[37:23] we spent several weeks speaking to
+[37:25] college students, and I realized that
+[37:27] there's this piece of startup advice
+[37:29] that became canon that I think is
+[37:31] outdated. Back in the pre-AI era, it was
+[37:34] really hard to come up with good new
+[37:36] startup ideas because the best like the
+[37:38] idea space had been picked over for like
+[37:40] 20 years. And so a lot of the the
+[37:43] startup advice that people would hear
+[37:44] would be like you you really need to
+[37:47] like sell before you build. You have to
+[37:49] do like detailed customer discovery and
+[37:51] make sure that you've like found a real
+[37:53] like new customer need like the lean
+[37:56] startup lean startup. Yeah. Exactly.
+[37:59] Fail fast. All this stuff. And that is
+[38:01] still the advice that college students I
+[38:03] think are receiving for the most part
+[38:05] because it became so dominant. But I
+[38:07] would argue that in this new AI era that
+[38:10] the right mental model is closer to what
+[38:12] Hard said, which is just like use
+[38:14] interesting technology, follow your own
+[38:16] curiosity, figure out what's possible,
+[38:19] and like if you're if you're doing that,
+[38:21] if you're living at the edge of the
+[38:23] future, like PG said, and you're
+[38:25] exploring the latest technology, like
+[38:27] there's so many great startup ideas,
+[38:28] you're very likely to just bump into
+[38:29] one. I guess the reason why it could
+[38:31] work extra well today is that you apply
+[38:35] the right prompts and the right data set
+[38:38] and a little bit of ingenuity, the right
+[38:41] evals, a little bit of taste and you can
+[38:44] get like just magical output. And then
+[38:47] that's still a secret I think. Yeah, I
+[38:50] mean you can tell it's still a secret
+[38:51] because you could look at there like
+[38:53] hundreds of unicorns out there that
+[38:55] still exist and that are doing great.
+[38:58] You know, like growing year on year,
+[38:59] have plenty of cash, all of that. But
+[39:02] the number of them that are actually
+[39:04] doing any sort of like transformation
+[39:07] internally, it's not that many. like a
+[39:09] shocking few number of companies that
+[39:12] are you know 100 to thousand person
+[39:15] startups that you know they're going to
+[39:16] be great businesses but that class of
+[39:20] startup like by and large they are not
+[39:22] entirely aware like there isn't a skunk
+[39:25] works project in those things yet like
+[39:27] you know the extent of it is um maybe
+[39:30] the CEO is playing around with it like
+[39:33] maybe some of the engineers who are
+[39:34] really forward thinking are doing things
+[39:36] in their spare time with it maybe
+[39:38] They're using Windsor for cursor for the
+[39:40] first time and it's like you look down
+[39:43] and you're like what year is it? like
+[39:45] it's a little bit like hey you know get
+[39:47] on this like I think Bob Mcgru uh came
+[39:49] on our channel and he was just shocked
+[39:51] like he was one of the guys as chief
+[39:54] research officer like building you know
+[39:56] building what became 01 and 03 and all
+[39:58] these things and then he releases it and
+[40:02] like who's using it like he expected
+[40:04] this you know crazy you know outpouring
+[40:07] of like intelligence is too cheap to
+[40:09] meter this is amazing and it's like
+[40:11] actually like people are mainly just
+[40:13] we're just still on our quarterly road
+[40:15] map unchanged from, you know, even a
+[40:17] year ago. Yep. Pretty wild. Okay, cool.
+[40:19] I think that's all we have time for
+[40:21] today. My main takea away from this has
+[40:22] been there's never a better time to
+[40:24] build. So many ideas are possible today
+[40:25] that weren't even possible a year ago.
+[40:27] Um, and the best way to find them is to
+[40:29] just follow your own curiosity and keep
+[40:31] building. Thanks for watching. See you
+[40:32] on the next show.
+[40:34] [Music]
