@@ -110,3 +110,42 @@ youtube_transcribe/
 ```
 
 The script automatically creates the `transcripts/` directory relative to the script location if it doesn't exist.
+
+## OpenAI API Compatibility (Important!)
+
+If you want to use the AI-powered insights feature (which sends the transcript to GPT-4 for summarization and insights), you must use the new OpenAI Python API format (openai>=1.0.0).
+
+**If you see an error like:**
+
+```
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+```
+
+This means your code or dependencies are using the old OpenAI API call style. The correct way (as of 2024) is:
+
+```python
+client = openai.OpenAI()
+response = client.chat.completions.create(
+    model="gpt-4.1-nano-2025-04-14",
+    messages=[...],
+    ...
+)
+```
+
+**How to fix:**
+- Make sure your code uses the new `client.chat.completions.create` format (see above)
+- If you are using an older codebase, update your code and dependencies
+- See the [OpenAI migration guide](https://github.com/openai/openai-python/discussions/742) for more details
+
+**Do NOT use:**
+```python
+openai.ChatCompletion.create(...)
+```
+This will not work with openai>=1.0.0.
+
+If you update your dependencies and see this error, update your code as shown above.
+
+## Recent Updates and Learnings
+
+- **OpenAI API Compatibility**: Ensure you use the new OpenAI Python API format (openai>=1.0.0) for generating insights. The old `openai.ChatCompletion.create` is no longer supported. Use `client.chat.completions.create` instead.
+- **Notion API Chunking**: Insights are now chunked into 2000-character blocks before being added to Notion to avoid API length errors. This ensures all content is saved correctly.
