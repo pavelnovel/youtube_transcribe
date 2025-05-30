@@ -38,8 +38,7 @@ def save_transcript(video_id, url):
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(f"YouTube Transcript for Video: {title}\nVideo ID: {video_id}\nGenerated on: {datetime.now():%Y-%m-%d %H:%M:%S}\n{'='*50}\n\n")
             for entry in transcript:
-                m, s = divmod(int(entry['start']), 60)
-                f.write(f"[{m:02d}:{s:02d}] {entry['text']}\n")
+                f.write(f"{entry['text']}\n")
         print(filename)
     except TranscriptsDisabled:
         print("Transcripts are disabled for this video.")
