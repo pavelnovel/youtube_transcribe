@@ -12,6 +12,28 @@ A Python utility for downloading and saving YouTube video transcripts to text fi
 - Interactive mode when no arguments provided
 - Automatic filename sanitization for safe file storage
 - Creates transcripts directory automatically
+- Integrates with Notion to store transcripts and AI-generated insights
+- Uses OpenAI's GPT-4 to generate comprehensive insights from transcripts
+
+## Notion Integration
+
+The script can automatically save transcripts and AI-generated insights to your Notion workspace. To use this feature:
+
+1. Create a Notion integration at https://www.notion.so/my-integrations
+2. Create a Notion page and share it with your integration
+3. Set the following environment variables:
+   - `NOTION_API_KEY`: Your Notion integration token
+   - `NOTION_PAGE_ID`: The ID of your Notion page (from the page URL)
+
+The script will:
+- Create a new page in your Notion workspace for each video
+- Save the full transcript with timestamps
+- Generate and save AI-powered insights including:
+  - Key points and main takeaways
+  - Topic analysis
+  - Action items and recommendations
+  - Technical concepts and definitions
+  - Questions for further exploration
 
 ## Setup
 
@@ -133,9 +155,7 @@ response = client.chat.completions.create(
 ```
 
 **How to fix:**
-- Make sure your code uses the new `client.chat.completions.create` format (see above)
-- If you are using an older codebase, update your code and dependencies
-- See the [OpenAI migration guide](https://github.com/openai/openai-python/discussions/742) for more details
+- Make sure your code uses the new `client.chat.completions.create`
 
 **Do NOT use:**
 ```python
