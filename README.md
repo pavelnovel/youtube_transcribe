@@ -35,6 +35,34 @@ The script will:
   - Technical concepts and definitions
   - Questions for further exploration
 
+## Advanced Features & Suggestions
+
+### Alfred Workflow Integration
+
+For macOS users, you can enhance your workflow by integrating this tool with Alfred:
+
+1. Create a custom Alfred workflow that:
+   - Triggers on a custom keyword (e.g., "ytranscribe")
+   - Accepts a YouTube URL as input
+   - Runs the script with the provided URL
+   - Shows a notification when the transcript and insights are ready
+
+2. Benefits of Alfred integration:
+   - Quick access to transcript generation from anywhere
+   - Keyboard-driven workflow without leaving your current context
+   - Customizable notifications for completion status
+   - Ability to chain with other Alfred workflows
+
+3. Example Alfred workflow structure:
+   ```
+   Keyword Input → Script Filter → Run Script → Notification
+   ```
+
+This integration is particularly useful for:
+- Researchers who frequently need to transcribe YouTube content
+- Content creators who want to quickly save video insights
+- Students who need to capture lecture content efficiently
+
 ## Setup
 
 1. Create and activate a virtual environment:
