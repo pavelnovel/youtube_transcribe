@@ -1,11 +1,14 @@
-from youtube_transcript_api import YouTubeTranscriptApi
-from pytube import YouTube
+from youtube_transcript_api import (
+    YouTubeTranscriptApi,
+    TranscriptsDisabled,
+    NoTranscriptFound,
+    VideoUnavailable,
+)
 from datetime import datetime
 import os
 import re
 import sys
 import yt_dlp
-from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound, VideoUnavailable
 from notion_client import Client
 import json
 from dotenv import load_dotenv
@@ -187,9 +190,15 @@ def get_video_title(url):
         print(f"Could not fetch video title: {e}")
         return "unknown_title"
 
+def format_timestamp(seconds):
+    # Format seconds as MM:SS
+    total = int(seconds)
+    return f"{total // 60:02d}:{total % 60:02d}"
+
 def save_transcript(video_id, url):
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(video_id)
+        # youtube-transcript-api v1.x: instance-based API returning snippet objects
+        transcript = YouTubeTranscriptApi().fetch(video_id)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         base_path = os.path.dirname(os.path.abspath(__file__))
         transcript_dir = os.path.join(base_path, "transcripts")
@@ -200,7 +209,7 @@ def save_transcript(video_id, url):
         # Prepare transcript text
         transcript_text = f"YouTube Transcript for Video: {title}\nVideo ID: {video_id}\nGenerated on: {datetime.now():%Y-%m-%d %H:%M:%S}\n{'='*50}\n\n"
         for entry in transcript:
-            transcript_text += f"{entry['text']}\n"
+            transcript_text += f"[{format_timestamp(entry.start)}] {entry.text}\n"
         
         # Save to file
         with open(filename, 'w', encoding='utf-8') as f:

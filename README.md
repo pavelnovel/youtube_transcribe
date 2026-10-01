@@ -67,8 +67,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 2. Install dependencies:
 ```bash
-pip install youtube-transcript-api pytube yt-dlp notion-client python-dotenv openai
+pip install -r requirements.txt
 ```
+This installs `youtube-transcript-api` (v1.x), `yt-dlp`, plus the optional
+Notion/OpenAI packages. Only `youtube-transcript-api` and `yt-dlp` are needed
+for the core transcript-download flow; without `NOTION_TOKEN`,
+`NOTION_DATABASE_ID`, and `OPENAI_API_KEY` set, the script saves the transcript
+to a text file and skips the Notion/AI steps with a notice.
 
 3. Create a `.env` file in the project root with your API keys:
 ```bash
@@ -127,12 +132,11 @@ The script handles common issues:
 
 ## Dependencies
 
-- `youtube-transcript-api`: Fetching YouTube transcripts
-- `pytube`: Video metadata (legacy support)
+- `youtube-transcript-api` (>=1.0): Fetching YouTube transcripts
 - `yt-dlp`: Reliable video title fetching and metadata
-- `notion-client`: Notion API integration
-- `python-dotenv`: Environment variable management
-- `openai`: OpenAI API integration for insights generation
+- `notion-client`: Notion API integration (optional)
+- `python-dotenv`: Environment variable management (optional)
+- `openai`: OpenAI API integration for insights generation (optional)
 - `re`: Filename sanitization (built-in)
 - `os`: File system operations (built-in)
 - `sys`: Command line arguments (built-in)
