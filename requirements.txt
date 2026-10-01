@@ -1,0 +1,8 @@
+# Core transcript functionality
+youtube-transcript-api>=1.0
+yt-dlp>=2025.1.1
+
+# Optional: Notion + AI insights (only needed if you set the env keys below)
+notion-client>=2.0
+python-dotenv>=1.0
+openai>=1.0
