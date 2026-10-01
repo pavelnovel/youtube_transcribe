@@ -7,7 +7,9 @@ from youtube_transcript_api import (
 from datetime import datetime
 import os
 import re
+import shutil
 import sys
+import tempfile
 import yt_dlp
 from notion_client import Client
 import json
@@ -195,36 +197,124 @@ def format_timestamp(seconds):
     total = int(seconds)
     return f"{total // 60:02d}:{total % 60:02d}"
 
+def download_audio(url):
+    """Download the best audio track of a YouTube video to a temp dir.
+
+    Returns (tmpdir, audio_path), or (None, None) on failure. Caller cleans up tmpdir.
+    """
+    tmpdir = tempfile.mkdtemp(prefix="whisper_audio_")
+    try:
+        ydl_opts = {
+            'format': 'bestaudio/best',
+            'outtmpl': os.path.join(tmpdir, 'audio.%(ext)s'),
+            'quiet': True,
+            'noplaylist': True,
+        }
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            ydl.download([url])
+        files = [f for f in os.listdir(tmpdir) if os.path.isfile(os.path.join(tmpdir, f))]
+        if not files:
+            print("Whisper fallback: audio download produced no file.")
+            shutil.rmtree(tmpdir, ignore_errors=True)
+            return None, None
+        return tmpdir, os.path.join(tmpdir, files[0])
+    except Exception as e:
+        print(f"Whisper fallback: could not download audio: {e}")
+        shutil.rmtree(tmpdir, ignore_errors=True)
+        return None, None
+
+def _patch_av_metadata_errors():
+    """Compatibility shim: faster-whisper 1.2.x passes metadata_errors to
+    av.open(), but PyAV >= 15 no longer accepts that kwarg. Retry without it
+    when the installed av rejects it, so transcription works with whatever
+    av version pip resolves."""
+    try:
+        import av
+    except Exception:
+        return
+    _orig_open = av.open
+    def _open(*args, **kwargs):
+        try:
+            return _orig_open(*args, **kwargs)
+        except TypeError as e:
+            if "metadata_errors" in kwargs and "metadata_errors" in str(e):
+                kwargs.pop("metadata_errors")
+                return _orig_open(*args, **kwargs)
+            raise
+    av.open = _open
+
+def transcribe_audio_file(audio_path, model_name=None):
+    """Transcribe a local audio file with faster-whisper (open-source, runs on CPU).
+
+    Returns a list of (start_seconds, text) tuples, or None on failure.
+    """
+    try:
+        from faster_whisper import WhisperModel
+    except ImportError:
+        print("Whisper fallback needs faster-whisper: pip install -r requirements.txt")
+        return None
+    _patch_av_metadata_errors()
+    model_name = model_name or os.getenv('WHISPER_MODEL', 'base')
+    try:
+        print(f"Transcribing audio locally with Whisper ({model_name} model)...")
+        model = WhisperModel(model_name, device="cpu", compute_type="int8")
+        segments, _info = model.transcribe(audio_path)
+        return [(seg.start, seg.text.strip()) for seg in segments if seg.text.strip()]
+    except Exception as e:
+        print(f"Whisper fallback: transcription failed: {e}")
+        return None
+
+def transcribe_with_whisper(url):
+    """Fallback transcription: download audio, transcribe locally. Free, no API keys."""
+    tmpdir, audio_path = download_audio(url)
+    if not audio_path:
+        return None
+    try:
+        return transcribe_audio_file(audio_path)
+    finally:
+        shutil.rmtree(tmpdir, ignore_errors=True)
+
 def save_transcript(video_id, url):
     try:
         # youtube-transcript-api v1.x: instance-based API returning snippet objects
         transcript = YouTubeTranscriptApi().fetch(video_id)
+        segments = [(entry.start, entry.text) for entry in transcript]
+        source = "YouTube captions"
+    except (TranscriptsDisabled, NoTranscriptFound):
+        print("No captions available for this video — falling back to local Whisper transcription (free, runs on this machine).")
+        segments = transcribe_with_whisper(url)
+        if not segments:
+            print("No transcript found for this video.")
+            return
+        source = "Whisper (local transcription)"
+    except VideoUnavailable:
+        print("The video is unavailable.")
+        return
+    except Exception as e:
+        print(f"Error: {e}")
+        return
+
+    try:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         base_path = os.path.dirname(os.path.abspath(__file__))
         transcript_dir = os.path.join(base_path, "transcripts")
         os.makedirs(transcript_dir, exist_ok=True)
         title = get_video_title(url)
         filename = os.path.join(transcript_dir, f"{title}_{timestamp}.txt")
-        
+
         # Prepare transcript text
-        transcript_text = f"YouTube Transcript for Video: {title}\nVideo ID: {video_id}\nGenerated on: {datetime.now():%Y-%m-%d %H:%M:%S}\n{'='*50}\n\n"
-        for entry in transcript:
-            transcript_text += f"[{format_timestamp(entry.start)}] {entry.text}\n"
-        
+        transcript_text = f"YouTube Transcript for Video: {title}\nVideo ID: {video_id}\nSource: {source}\nGenerated on: {datetime.now():%Y-%m-%d %H:%M:%S}\n{'='*50}\n\n"
+        for start, text in segments:
+            transcript_text += f"[{format_timestamp(start)}] {text}\n"
+
         # Save to file
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(transcript_text)
-        
+
         # Add to Notion database with transcript content
         add_to_notion(title, url, filename, transcript_text)
-        
+
         print(filename)
-    except TranscriptsDisabled:
-        print("Transcripts are disabled for this video.")
-    except NoTranscriptFound:
-        print("No transcript found for this video.")
-    except VideoUnavailable:
-        print("The video is unavailable.")
     except Exception as e:
         print(f"Error: {e}")
 

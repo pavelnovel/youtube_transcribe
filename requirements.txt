@@ -2,6 +2,10 @@
 youtube-transcript-api>=1.0
 yt-dlp>=2025.1.1
 
+# Whisper fallback: local transcription when a video has no captions.
+# Open-source, free, runs on CPU (no API key needed).
+faster-whisper>=1.0
+
 # Optional: Notion + AI insights (only needed if you set the env keys below)
 notion-client>=2.0
 python-dotenv>=1.0

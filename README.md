@@ -5,6 +5,11 @@ A Python utility for downloading YouTube video transcripts and saving them to te
 ## Features
 
 - Downloads transcripts from YouTube videos using URL or ID
+- **Whisper fallback**: if a video has no captions, downloads the audio and
+  transcribes it locally with open-source Whisper (`faster-whisper`) — free,
+  runs on CPU, no API key. Same `[MM:SS]` timestamped output, so everything
+  downstream (text file, Notion, insights) works unchanged. Set
+  `WHISPER_MODEL` to `tiny`, `base` (default), `small`, etc. to change the model.
 - Fetches video title for filename using yt-dlp
 - Timestamps each transcript entry in MM:SS format
 - Saves transcripts with metadata in organized format
@@ -69,11 +74,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-This installs `youtube-transcript-api` (v1.x), `yt-dlp`, plus the optional
-Notion/OpenAI packages. Only `youtube-transcript-api` and `yt-dlp` are needed
-for the core transcript-download flow; without `NOTION_TOKEN`,
-`NOTION_DATABASE_ID`, and `OPENAI_API_KEY` set, the script saves the transcript
-to a text file and skips the Notion/AI steps with a notice.
+This installs `youtube-transcript-api` (v1.x), `yt-dlp`, and `faster-whisper`
+for the local Whisper fallback, plus the optional Notion/OpenAI packages.
+Only `youtube-transcript-api` and `yt-dlp` are needed for the caption-download
+flow; `faster-whisper` is only used when a video has no captions. Without
+`NOTION_TOKEN`, `NOTION_DATABASE_ID`, and `OPENAI_API_KEY` set, the script
+saves the transcript to a text file and skips the Notion/AI steps with a notice.
 
 3. Create a `.env` file in the project root with your API keys:
 ```bash
@@ -124,8 +130,10 @@ Each transcript file includes:
 ## Error Handling
 
 The script handles common issues:
-- Videos with disabled transcripts: "Transcripts are disabled for this video."
-- Videos without available transcripts: "No transcript found for this video."  
+- Videos with disabled transcripts: falls back to local Whisper transcription
+  of the downloaded audio (free, open-source, no API key). Only if that also
+  fails: "No transcript found for this video."
+- Videos without available transcripts: same Whisper fallback as above.
 - Unavailable videos: "The video is unavailable."
 - Video title fetch failures: Falls back to "unknown_title"
 - Invalid URLs or video IDs: Generic error handling
@@ -134,6 +142,9 @@ The script handles common issues:
 
 - `youtube-transcript-api` (>=1.0): Fetching YouTube transcripts
 - `yt-dlp`: Reliable video title fetching and metadata
+- `faster-whisper` (>=1.0): Local Whisper transcription fallback when a video
+  has no captions — open-source, free, CPU-only, no API key (audio decoding is
+  handled by its bundled PyAV, so no system ffmpeg needed)
 - `notion-client`: Notion API integration (optional)
 - `python-dotenv`: Environment variable management (optional)
 - `openai`: OpenAI API integration for insights generation (optional)
