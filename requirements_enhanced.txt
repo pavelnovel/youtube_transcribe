@@ -1,0 +1,21 @@
+# Core YouTube transcription
+youtube-transcript-api
+pytube
+yt-dlp
+
+# Enhanced features
+tqdm  # Progress bars
+openai-whisper  # Optional: High-quality transcription (requires ffmpeg)
+
+# Existing integrations
+notion-client
+python-dotenv
+openai
+
+# Text processing
+spacy  # Optional: Advanced sentence splitting
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz  # English model for spacy
+
+# Dependencies that might be needed
+pathlib
+asyncio  # Built-in to Python 3.7+ 

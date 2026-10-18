@@ -40,7 +40,7 @@ def generate_insights(transcript_text):
 1. Read the transcript:
 {transcript_text}
 
-2. Write a 3-sentence summary. Be concise and sharp. Avoid phrases like "he said" or "XYZ advocates..." or "they discuss..."—just state the ideas. Start with what the format is (e.g., "Fireside chat with..."). Sentence fragments preferred.
+2. Write a 3-sentence summary. Be concise and sharp. Avoid phrases like "he said" or "XYZ advocates..." or "they discuss..."—just state the ideas. Start with what the format is (e.g., "Fireside chat with..." or "Video from..."). Sentence fragments preferred.
 
 3. Generate 5 bullet points of compelling insights. Tailor these for a highly educated generalist who is a Marketer, Philosopher, AI Builder, Entrepreneur, Technologist, Media and Community builder. Think about relevance, hidden angles, and non-obvious applications. Use short, sharp fragments.
 
@@ -191,8 +191,8 @@ def save_transcript(video_id, url):
     try:
         transcript = YouTubeTranscriptApi.get_transcript(video_id)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        base_path = os.path.dirname(os.path.abspath(__file__))
-        transcript_dir = os.path.join(base_path, "transcripts")
+        # Use TRANSCRIPTS_DIR env variable or default to ~/Desktop/content/youtube_transcripts
+        transcript_dir = os.getenv("TRANSCRIPTS_DIR", os.path.expanduser("~/Desktop/content/youtube_transcripts"))
         os.makedirs(transcript_dir, exist_ok=True)
         title = get_video_title(url)
         filename = os.path.join(transcript_dir, f"{title}_{timestamp}.txt")
